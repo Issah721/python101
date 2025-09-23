@@ -12,7 +12,16 @@ p {
 table {
                 width: 50%;
                 border-collapse: collapse;
+                background-color: rgba(216, 17, 60, 0.89);
+                margin: 0 auto;
+                border: 3px solid black;
+                
             }
+
+th, td {
+      border: 1px solid black;
+}
+
 
 div{
                 font-family: Arial, sans-serif;
