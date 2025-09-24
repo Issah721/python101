@@ -62,3 +62,11 @@ button {
 button:hover {
                 background-color: #070beb;
             }
+#container {
+                background-color: #f4f4f4;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: right;
+                flex-wrap: wrap;
+            }
