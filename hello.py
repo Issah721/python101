@@ -16,3 +16,9 @@ width = float(int(input("Enter the width of the rectangle: ")))
 import functions101
 area = functions101.my_rect_area(length , width)
 print(f"The area of the rectangle is {area} square units.")
+
+#Check user age, if they are 15 or older, they can continue 
+if int(age) >= 15:
+    print("You are old enough to continue.")
+else:
+    print("You are not old enough to continue.")
