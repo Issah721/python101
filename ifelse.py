@@ -10,3 +10,9 @@ else:
     print(f"Hello, {name}")
 
 
+print(f"Hello, {name}, would you like some food? ")
+input = input("yes/no: ").strip().lower()
+if input == "yes":
+    print("Here is some food 🍕")
+else :
+    print("Okay, no food for you then 😢")
