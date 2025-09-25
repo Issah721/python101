@@ -17,7 +17,7 @@ import functions101
 area = functions101.my_rect_area(length , width)
 print(f"The area of the rectangle is {area} square units.")
 
-#Check user age, if they are 15 or older, they can continue 
+#Check user age, if they are 15 or older, they can continue signing up
 if int(age) >= 15:
     print("You are old enough to continue.")
 else:
